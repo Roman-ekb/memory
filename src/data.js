@@ -1,3 +1,5 @@
+import { RANDOMIZED } from "./settings";
+
 const cats = [{
   'id': 'YdAqiUkUoWA',
   'url': 'img/cats-1.jpg',
@@ -99,3 +101,5 @@ const getImages = (type) => {
   }
   return settingImages;  
 };
+
+export {results, getImages};
